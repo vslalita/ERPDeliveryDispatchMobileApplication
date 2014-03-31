@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#33B5E5">
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoSearchItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <LinearLayout
+        android:id="@+id/CategoryLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/Categoryleftarrow"
+                android:layout_width="35dp"
+                android:layout_height="37dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:background="@drawable/arrow_left" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.parse.ParseImageView
+                    android:id="@+id/Categoryimageview"
+                    android:layout_width="101dp"
+                    android:layout_height="101dp"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:padding="15dp"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/CategoryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/Categoryrightarrow"
+                android:layout_width="36dp"
+                android:layout_height="37dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/arrow_right" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <HorizontalScrollView
+        android:id="@+id/itemshorizontalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/itemslayoutView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/ViewAllText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="ViewAll" />
+
+    <TextView
+        android:id="@+id/UpdateProfileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile" />
+
+</LinearLayout>

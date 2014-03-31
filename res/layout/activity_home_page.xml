@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:background="#33B5E5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_category_view_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_above="@+id/actions_customer" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actions_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/home_icon_button"
+            android:gravity="bottom" />
+
+        <Button
+            android:id="@+id/cart_button"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shopping_cart"
+            android:gravity="bottom" />
+
+        <Button
+            android:id="@+id/orders_button"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/show_order_icon"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13420\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 This project has covered the concepts taught in the course.\
+\
+\
+MILESTONE 1: \
+Following are the tasks accomplished.\
+\
+1. Created a Login Page which takes the username and password as inputs through EditText.\
+      -> It includes a Login Button and a SignIn Button.\
+      -> Clicking on \'91Login\'92 button it creates verifies if the user exists by interacting with the database.If it does not exists the app shows a toast message asking the user to sign up.\
+      -> Click on \'92Sign In\'92 button opens a dialog asking for the details of the user. It includes a submit button. Click on this makes an entry of the details into the database.\
+\
+2. Once the user logs in the app checks if he is a customer and opens the respective activity.\
+\
+     -> This activity has three buttons at the bottom of the screen. (Home, Add to Cart, Show Orders).\
+     -> Used LayoutInflater to change the layout according to the buttons clicked.\
+     -> The activity that appears as soon as the user logs in and the click on Home button displays the same layout.In this layout, is a layout with a left arrow, right arrow and an image which represents the item category (Men Wear, Women Wear etc.). A click on the left or right arrow changes the category. The other Layout is a horizontal scroll view of the list of items available under the category selected above.\
+     -> A click on any of the items in the horizontal scroll view inflates another layout which gives the details of the item including its properties. This layout includes an \'93Add to Cart\'94 button. This add the respective item to cart.\
+     -> This activity gives the list view of items along with the images of the items. Clicking on which inflates another  layout which gives the details of the items. This layout includes an \'93Add to Cart\'94 button.The respective item is added to cart.\
+      -> Cart Button: Clicking on this button gives the list view of the items added to cart in the above step with a \'91Book Order\'92 button at the end of the list. The list view has a check box against the name of the item. Clicking on Book Order Button creates an order by inserting a row into the database.\
+      -> Show Orders button:  This has a Expandable List view of orders with status \'91Booked\'92 , Warehoused, \'91Delivered\'92. Click on the booked orders gives details of the order. click on the order number gives a detail view of the order and the items included in the order.\
+      -> This activity also includes an Auto complete text box for list of all items available.\
+\
+3. Parse (BAAS) has been used to store,retrieve and update data.\
+\
+MILESTONE 2:\
+1. Implemented views for Warehouse Managers and Admin.\
+     -> Added items to action bar which allows the users to sign out and create respective accounts for suppliers or transporters.\
+     -> Displays data necessary like Orders, Active Users, etc.\
+     ->AllowsSuppliers to create Items.\
+2. Implemented functionality which allows the customer to view the Facebook profile of the supplier.\
+    -> Used Facebook API which displays the profile of the supplier based on his Facebook userID.\
+    ->Fetched the user by sending a HTTP request to facebook.graph.com/\'91username\'92. The response was being received in JSON format. The application parses and uses the required data.\
+3. When a customer adds an item to the cart the application pushes a notification to the same device saying the \'93Item has been added\'94.\
+4. When a user having more than one account logs in a dialog box appears asking him if he wants to sign in as a supplier or transporter or customer.\
+5. Added a functionality which opens up the Mail App on the phone allowing user to mail himself his order information.(Presently I have put in a default message)\
+\
+TestData: For Admin (Username: vslalita Password: vslalita)\
+                For Customer and Supplier(Username: ddsakala Password:ddsakala)\
+\
+Please refer to the video for steps to execution. \
+\
+\
+}

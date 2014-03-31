@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#33B5E5">
+
+    <TextView
+        android:id="@+id/OrderDetailsNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/OrderDetailsItemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/OrderDetailsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/OrderDetailsStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="TextView" />
+
+    <TableLayout
+        android:id="@+id/ItemDetailsTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="ItemName" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="ItemQty" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="ItemStatus" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="ItemPrice" />
+        </TableRow>
+    </TableLayout>
+
+   
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ERPAutomationProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+    <string name="title_activity_customer_supplier_display">CustomerSupplierDisplayActivity</string>
+    <string name="title_activity_supplier_display">SupplierDisplayActivity</string>
+    <string name="title_activity_supplier_home_page">SupplierHomePageActivity</string>
+    <string name="title_activity_transporter_home_page">TransporterHomePageActivity</string>
+    <string name="title_activity_admin_page">AdminPageActivity</string>
+    <string name="title_activity_admin_create_user">AdminCreateUserActivity</string>
+    <string name="title_activity_admin_supplier_display">AdminSupplierDisplayActivity</string>
+    <string name="title_activity_admin_order_display">AdminOrderDisplayActivity</string>
+    <string name="title_activity_supplier_item_display">SupplierItemDisplayActivity</string>
+    <string name="title_activity_transporter_display">TransporterDisplayActivity</string>
+    <string name="title_activity_supplier_create_item">SupplierCreateItemActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_supplier_order_display">SupplierOrderDisplayActivity</string>
+
+</resources>
