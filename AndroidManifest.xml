@@ -34,7 +34,7 @@
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustPan" >
         <activity
-            android:name="com.example.erpautomationproject.MainActivity"
+            android:name="com.erp.erpautomationproject.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,18 +42,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.erpautomationproject.HomePageActivity" >
+        <activity android:name="com.erp.erpautomationproject.HomePageActivity" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.OrderDetailActivity"
+            android:name="com.erp.erpautomationproject.OrderDetailActivity"
             android:label="@string/title_activity_order_detail" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.CustomerSupplierDisplayActivity"
+            android:name="com.erp.erpautomationproject.CustomerSupplierDisplayActivity"
             android:label="@string/title_activity_customer_supplier_display" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.SupplierDisplayActivity"
+            android:name="com.erp.erpautomationproject.SupplierDisplayActivity"
             android:label="@string/title_activity_supplier_display" >
         </activity>
 
@@ -78,47 +78,47 @@
         </receiver>
 
         <activity
-            android:name="com.example.erpautomationproject.SupplierHomePageActivity"
+            android:name="com.erp.erpautomationproject.SupplierHomePageActivity"
             android:label="@string/title_activity_supplier_home_page" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.TransporterHomePageActivity"
+            android:name="com.erp.erpautomationproject.TransporterHomePageActivity"
             android:label="@string/title_activity_transporter_home_page" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.AdminPageActivity"
+            android:name="com.erp.erpautomationproject.AdminPageActivity"
             android:label="@string/title_activity_admin_page" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.AdminCreateUserActivity"
+            android:name="com.erp.erpautomationproject.AdminCreateUserActivity"
             android:label="@string/title_activity_admin_create_user" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.AdminSupplierDisplayActivity"
+            android:name="com.erp.erpautomationproject.AdminSupplierDisplayActivity"
             android:label="@string/title_activity_admin_supplier_display" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.AdminOrderDisplayActivity"
+            android:name="com.erp.erpautomationproject.AdminOrderDisplayActivity"
             android:label="@string/title_activity_admin_order_display" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.SupplierItemDisplayActivity"
+            android:name="com.erp.erpautomationproject.SupplierItemDisplayActivity"
             android:label="@string/title_activity_supplier_item_display" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.TransporterDisplayActivity"
+            android:name="com.erp.erpautomationproject.TransporterDisplayActivity"
             android:label="@string/title_activity_transporter_display" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.SupplierCreateItemActivity"
+            android:name="com.erp.erpautomationproject.SupplierCreateItemActivity"
             android:label="@string/title_activity_supplier_create_item" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.NotificationActivity"
+            android:name="com.erp.erpautomationproject.NotificationActivity"
             android:label="@string/title_activity_notification" >
         </activity>
         <activity
-            android:name="com.example.erpautomationproject.SupplierOrderDisplayActivity"
+            android:name="com.erp.erpautomationproject.SupplierOrderDisplayActivity"
             android:label="@string/title_activity_supplier_order_display" >
         </activity>
     </application>
